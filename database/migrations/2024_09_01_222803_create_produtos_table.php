@@ -17,6 +17,7 @@ return new class extends Migration
             $table->integer("qtd");
             $table->float("precoUntario");
             $table->float("precoVenda");
+            $table->timestamps();
         });
     }
 
